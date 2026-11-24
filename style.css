@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #0f0f0f;
+    color: white;
+    line-height: 1.6;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 30px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    min-height: 100vh;
+    padding: 100px 10%;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+article {
+    padding: 30px;
+    margin-bottom: 20px;
+    border: 1px solid #333;
+    border-radius: 10px;
+}
+
+a {
+    color: #fff;
+}
