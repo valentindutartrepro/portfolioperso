@@ -4,78 +4,221 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Ton Nom — Développeur .NET</title>
-    <meta name="description" content="Portfolio de Ton Nom, développeur C# .NET">
+    <title>Valentin Dutartre — Développeur Fullstack</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <header>
-        <nav>
-            <a href="#accueil">Accueil</a>
-            <a href="#projets">Projets</a>
-            <a href="#competences">Compétences</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
+    <main class="container">
 
-    <main>
+        <!-- HERO -->
+        <section class="hero-grid">
 
-        <section id="accueil">
-            <h1>Ton Nom</h1>
-            <h2>Développeur C# / .NET</h2>
-            <p>
-                Je développe des applications web et logicielles
-                avec l'écosystème .NET.
-            </p>
+            <div class="card hero">
+                <p class="name">Valentin Dutartre</p>
+
+                <h1>
+                    Développeur<br>
+                    <span>Fullstack</span>
+                </h1>
+
+                <p class="description">
+                    Développeur Fullstack basé à Montpellier, en full remote.
+                    Je conçois des applications web et mobiles, de la maquette
+                    à la mise en production — avec une attention constante à
+                    l'expérience utilisateur.
+                </p>
+            </div>
+
+            <div class="hero-side">
+
+                <div class="card experience">
+                    <strong>5+</strong>
+                    <span>années d'expérience</span>
+                </div>
+
+                <div class="card philosophy">
+                    <span class="philosophy-label">MA PHILOSOPHIE</span>
+
+                    <h2>
+                        Concevoir simplement.<br>
+                        <span>Développer efficacement.</span>
+                    </h2>
+                </div>
+
+            </div>
+
         </section>
 
-        <section id="projets">
-            <h2>Projets</h2>
 
-            <article>
-                <h3>Projet 1</h3>
-                <p>Description du projet.</p>
-                <a href="#">Voir le projet</a>
-            </article>
+        <!-- CONTACT -->
+        <section class="card contact">
 
-            <article>
-                <h3>Projet 2</h3>
-                <p>Description du projet.</p>
-                <a href="#">Voir le projet</a>
-            </article>
+            <div>
+                <h2>Travaillons ensemble</h2>
+
+                <p>
+                    Une mission, un projet ou une question technique ?
+                    Je réponds sous 24 h.
+                </p>
+            </div>
+
+            <div class="contact-right">
+                <a href="mailto:valentin.dutartre.pro1@gmail.com">
+                    Écrivez-moi →
+                </a>
+
+                <span>valentin.dutartre.pro1@gmail.com</span>
+            </div>
+
         </section>
 
-        <section id="competences">
-            <h2>Compétences</h2>
 
-            <ul>
-                <li>C#</li>
-                <li>.NET</li>
-                <li>ASP.NET</li>
-                <li>HTML / CSS</li>
-                <li>JavaScript</li>
-                <li>SQL</li>
-                <li>Git</li>
-            </ul>
+        <!-- PROJETS -->
+        <section class="section">
+
+            <h2 class="section-title">Projets récents</h2>
+
+            <div class="projects-grid">
+
+                <article class="card project project-large">
+
+                    <div class="project-icon">A</div>
+
+                    <h3>Atlas</h3>
+
+                    <p>
+                        Tableau de bord SaaS pour suivre la performance
+                        commerciale en temps réel.
+                    </p>
+
+                    <div class="tags">
+                        <span>React</span>
+                        <span>TypeScript</span>
+                        <span>Tailwind</span>
+                        <span>React Query</span>
+                    </div>
+
+                </article>
+
+
+                <article class="card project">
+
+                    <div class="project-icon">P</div>
+
+                    <h3>Pocket Score</h3>
+
+                    <p>
+                        Application mobile pour compter les points entre amis,
+                        avec statistiques et trophées.
+                    </p>
+
+                    <div class="tags">
+                        <span>React Native</span>
+                        <span>Expo</span>
+                        <span>TypeScript</span>
+                    </div>
+
+                </article>
+
+
+                <article class="card project">
+
+                    <div class="project-icon">L</div>
+
+                    <h3>Studio Lumen</h3>
+
+                    <p>
+                        Site vitrine pour un studio de design,
+                        avec le référencement comme priorité.
+                    </p>
+
+                    <div class="tags">
+                        <span>HTML</span>
+                        <span>JavaScript</span>
+                        <span>SEO</span>
+                    </div>
+
+                </article>
+
+
+                <article class="card project">
+
+                    <div class="project-icon">S</div>
+
+                    <h3>Signes</h3>
+
+                    <p>
+                        Projet personnel pour rendre une langue des signes
+                        plus accessible.
+                    </p>
+
+                    <div class="tags">
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>MySQL</span>
+                    </div>
+
+                </article>
+
+            </div>
+
         </section>
 
-        <section id="contact">
-            <h2>Contact</h2>
 
-            <a href="mailto:tonmail@example.com">
-                Me contacter
-            </a>
+        <!-- PARCOURS -->
+        <section class="section">
+            <h2 class="section-title">Parcours</h2>
+
+            <div class="card career">
+                <article class="career-item">
+                    <div>
+                        <h3>
+                            Freelance
+                            <span class="current">Actuel</span>
+                        </h3>
+                        <p>Développeur Fullstack — Freelance</p>
+                    </div>
+                    <time>2026 — aujourd'hui</time>
+                </article>
+
+
+                <article class="career-item">
+                    <div>
+                        <h3>Adapt Informatique</h3>
+                        <p>Ingénieur informatique, développement fullstack d'une application mobile</p>
+                    </div>
+                    <time>2023 — 2025</time>
+                </article>
+
+
+                <article class="career-item">
+                    <div>
+                        <h3>CNAM PACA - Informatique & multimédia</h3>
+                        <p>École d'ingénieur en alternance</p>
+                    </div>
+                    <time>2019 — 2022</time>
+                </article>
+                
+                <article class="career-item">
+                    <div>
+                        <h3>Classes prépa - MP</h3>
+                    </div>
+                    <time>2016 — 2019</time>
+                </article>
+
+            </div>
+
         </section>
 
     </main>
 
-    <footer>
-        <p>© 2026 Ton Nom</p>
+    <footer class="footer">
+        <p>© 2026 Valentin Dutartre</p>
+        <a href="#top" class="to-top" aria-label="Retour en haut">↑</a>
     </footer>
-
-    <script src="script.js"></script>
+    
 </body>
 </html>
